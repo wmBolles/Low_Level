@@ -47,3 +47,30 @@ int main(void)
 // we call a function predefined in the gcc and cc compiler named init or begin function
 // this function has some instructions by default and we add the printf instruction
 // such as the concept of constructor in C++, the function will be executed before the main() function
+
+// The ASSEMBLY CODE
+
+.section	__TEXT,__text,regular,pure_instructions
+	.build_version macos, 10, 15	sdk_version 10, 15, 6
+	.globl	_Begin                  ## -- Begin function Begin  // Here we have the Begin function which the compiler executes first which is Begin(void);
+	.p2align	4, 0x90
+_Begin:                                 ## @Begin
+
+
+## %bb.0:
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register %rbp
+	leaq	L_.str(%rip), %rdi
+	movb	$0, %al
+	callq	_printf
+	popq	%rbp
+	retq
+	.cfi_endproc
+                                        ## -- End function
+	.globl	_main                   ## -- Begin function main // After That We Have The main() Function
+	.p2align	4, 0x90
+_main:                                  ## @main
+	.cfi_startproc
