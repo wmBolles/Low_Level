@@ -10,4 +10,4 @@
 
 ### Destructor In c
 
-<a href="#"> <img src="https://github.com/wmBolles/Low_Level/blob/main/assets/_attribute_assets/destructor.png" /> </a>
+<a href="https://github.com/wmBolles/Low_Level/blob/main/C/__attribute__/Destructor.c"> <img src="https://github.com/wmBolles/Low_Level/blob/main/assets/_attribute_assets/destructor.png" /> </a>
