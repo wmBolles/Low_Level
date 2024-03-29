@@ -20,6 +20,9 @@
 //  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 //  DEALINGS IN THE SOFTWARE.
 
+// Warning : Run This Code in Unix Os(MacOS)
+// Segfault in linux cuz there is a big changes in the attribute concept in linux
+
 #include <stdio.h>
 #include <stdlib.h>
 
