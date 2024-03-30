@@ -7,6 +7,17 @@ Prototype:
 ssize_t write(int fd, const void *buf, size_t count);
 ```
 
+## This Should Be work on Unix & Linux OS
+
+```
+    asm volatile (
+        "syscall"
+        : "=a" (ret)
+        : "a" (__NR_write), "D" (fd), "S" (buf), "d" (n_bytes)
+        : "rcx", "r11", "memory"
+    );
+```
+
 ### The function should be work on all architectures and os !windows
 
 # Custom Write Function Implementation
