@@ -1,3 +1,3 @@
 # How To Ignored This Warning Without Fix It ?
 
-<img src="" />
+<img src="https://github.com/wmBolles/Low_Level/blob/main/C/%23pragmas/ignored.png" />
