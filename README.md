@@ -10,4 +10,5 @@ This repository is dedicated to exploring the intricacies of low-level programmi
 </div>
 
 <h1><a href="https://github.com/wmBolles/Low_Level/blob/main/ft_write/ft_write.c"> Ft_write</a> </h1>
+<h1><a href="https://github.com/wmBolles/Low_Level/tree/main/ft_read">Ft_read</a></h1>
 <h1><a href="https://github.com/wmBolles/Low_Level/tree/main/C">C</a></h1>
