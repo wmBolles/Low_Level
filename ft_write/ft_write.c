@@ -55,7 +55,7 @@ ssize_t ft_write(int fd, const void *buf, size_t n_bytes)
 %>
 
 
-#pragma GCC diagnostic push	// push a nes label
+#pragma GCC diagnostic push	// push a new label
 #pragma GCC diagnostic ignored "-Wimplicit-int" // ignored the invalid return main :)
 
 main(void)
