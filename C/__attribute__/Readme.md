@@ -1,6 +1,7 @@
 # Function attributes
 ### \_\_attribute__ ((unused)) in C
 ## Click On The Images To See The Codesrc
+## Warning: Run This Scripts in Unix OS(Macos)
 
 <a href="https://github.com/wmBolles/Low_Level/blob/main/C/__attribute__/unused.c"> <img src="https://github.com/wmBolles/Low_Level/blob/main/assets/_attribute_assets/unused.png" /> </a>
 
