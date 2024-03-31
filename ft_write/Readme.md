@@ -18,7 +18,7 @@ ssize_t write(int fd, const void *buf, size_t count);
     );
 ```
 
-### The function should be work on all architectures and os !windows
+### The function should be working on all architectures and os !windows
 
 # Custom Write Function Implementation
 
